@@ -1,0 +1,47 @@
+{
+  "name": "effsoft/eff-asset-bootstrap-bundle",
+  "description": "",
+  "keywords": ["effsoft","eff"],
+  "homepage": "https://github.com/effsoft/eff-asset-bootstrap-bundle",
+  "type": "eff",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.2.0",
+    "effsoft/eff": "dev-master",
+    "bower-asset/bootstrap": "~v4.3.1"
+  },
+  "require-dev": {
+
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "autoload" : {
+    "psr-4" : {
+      "effsoft\\eff\\asset\\bootstrap\\bundle\\" : "src/"
+    }
+  },
+  "autoload-dev" : {
+    "psr-4" : {
+      "effsoft\\eff\\asset\\bootstrap\\bundle\\" : "src/"
+    }
+  },
+  "repositories": {
+    "eff":{
+      "type": "path",
+      "url": "../eff"
+    },
+    "asset-packagist":{
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    },
+    "packagist":{
+      "type": "composer",
+      "url": "https://packagist.org"
+    }
+  }
+}
