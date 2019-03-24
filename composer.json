@@ -15,6 +15,7 @@
 
   },
   "config": {
+    "vendor-dir": "../vendor/eff-asset-bootstrap-bundle",
     "process-timeout": 1800,
     "fxp-asset": {
       "enabled": false
